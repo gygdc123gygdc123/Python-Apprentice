@@ -33,7 +33,7 @@ tina.begin_fill()
 tina.circle(50)
 tina.end_fill()
 tina.penup()
-tina.goto(0,)180
+tina.goto(0,180)
 tina.pendown()
 tina.begin_fill()
 tina.circle(20)
@@ -42,7 +42,7 @@ tina.end_fill()
 # Use tina.circle() to draw a circle, and tina.goto() to move tina to a new location
 # Use tina.begin_fill(), tina.end_fill(), and tina.fillcolor() to fill in the shapes
 
-... # Your code here
+# Your code here
 
 turtle.exitonclick()                    # Close the window when we click on it
 
