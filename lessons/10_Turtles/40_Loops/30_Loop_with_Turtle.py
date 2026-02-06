@@ -7,3 +7,17 @@ write a new program that uses a loop to draw a pentagon.
 """
 
 ... # Your code here
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup(600,600,0,0)               # Set the size of the window
+
+tina = turtle.Turtle()                  # Create a turtle named tina
+
+tina.shape('turtle')                    # Set the shape of the turtle to a turtle
+tina.speed(2)                           
+
+for i in range (5):
+
+    tina.forward(100)                       
+    tina.left(72)                       
+
+turtle.exitonclick()        
