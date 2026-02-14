@@ -12,7 +12,7 @@ def make_shape(sides, side_length):
               # Create a turtle named tina
 
 tina.shape('turtle')                    # Set the shape of the turtle to a turtle
-tina.speed(0)                           # Make the turtle move as fast, but not too fast. 
+tina.speed(5)                           # Make the turtle move as fast, but not too fast. 
 tina.begin_fill()
 tina.left(90)
 tina.circle(100,180)
@@ -65,4 +65,6 @@ tina.begin_fill()
 tina.circle(10)
 tina.color("black")
 tina.end_fill()
+tina.penup()
+tina.goto(70,60)
 turtle.exitonclick()          
